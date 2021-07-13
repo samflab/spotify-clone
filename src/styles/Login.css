@@ -1,0 +1,18 @@
+.login{
+    display: grid;
+    place-items:center;
+    background-color: rgb(211, 211, 211);
+    height: 100vh;
+}
+
+.login > img{
+    width: 50%;
+}
+
+.sign-in-container{
+    height: 20vh;
+    background-color: white !important;
+    padding: 20px;
+    box-shadow: gray 10px 4px;
+}
+
