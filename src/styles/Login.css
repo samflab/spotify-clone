@@ -1,18 +1,27 @@
-.login{
-    display: grid;
-    place-items:center;
-    background-color: rgb(211, 211, 211);
-    height: 100vh;
+.login {
+  display: grid;
+  place-items: center;
+  background-color: black;
+  height: 100vh;
 }
 
-.login > img{
-    width: 50%;
+img {
+  -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+  filter: invert(100%);
 }
 
-.sign-in-container{
-    height: 20vh;
-    background-color: white !important;
-    padding: 20px;
-    box-shadow: gray 10px 4px;
+.login > img {
+  width: 50%;
 }
 
+.login-btn {
+  text-decoration: none;
+  border-radius: 99px;
+  padding: 20px;
+  color: white;
+  font-weight: 700;
+  text-transform:uppercase;
+  letter-spacing: 2px;
+  background-color: rgb(99, 7, 99);
+  cursor: pointer;
+}
