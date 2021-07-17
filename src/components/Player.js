@@ -1,11 +1,16 @@
-import React, { Component } from 'react';
+import React from "react";
+import "../styles/Player.css";
+import Sidebar from "./Sidebar";
 
-const Player = () => {
-    return (
-        <div>
-            <h1>Welcome</h1>
-        </div>
-    );
+function Player({ spotify }) {
+  return (
+    <div className="player">
+      <div className="player_body">
+        <Sidebar/>
+        <Body/>
+      </div>
+    </div>
+  );
 }
 
 export default Player;
