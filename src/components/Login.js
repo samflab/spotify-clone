@@ -8,7 +8,7 @@ function Login() {
   return (
     <div className="login">
       {/* Logo */}
-      <img src={logo} alt="logo" />
+      <img className="logo" src={logo} alt="logo" />
 
       {/* Login */}
       <a href={accessUrl} className="login-btn">authorise with spotify</a>
