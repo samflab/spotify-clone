@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import Login from "./components/Login";
 import { getTokenFromResponse } from "./monstercat";
 import SpotifyWebApi from "spotify-web-api-js";
@@ -31,6 +31,12 @@ function App() {
           user: user,
         });
       });
+      spotify.getUserPlaylists().then((playlists) =>{
+        dispatch({
+        type: "SET_PLAYLISTS",
+        playlists: playlists,
+      });
+    });
     }
   }, []);
 

@@ -1,10 +1,13 @@
-import React from 'react';
-import "../styles/Body.css"
+import React from "react";
+import "../styles/Body.css";
+import Header from "./Header";
 
-function Body (){
-    return(
-        <div className="body">Body</div>
-    );
+function Body({ spotify }) {
+  return (
+    <div className="body">
+      <Header spotify={spotify} />
+    </div>
+  );
 }
 
 export default Body;

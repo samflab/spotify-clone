@@ -1,15 +1,20 @@
 .sidebar {
   height: 100vh;
-  flex: 0.2;
+  flex: 0.1;
   min-width: 230px;
   padding: 0 10px 0 10px;
   background-color: #000000;
   color: #ffffff;
 }
 .sidebar-logo{
-  height: 70px;
+  height: 60px;
   padding: 10px;
   margin-right: auto;
+}
+.sidebar-title{
+  margin-left: 10px;
+  padding:5px;
+  font-size: 12px;
 }
 
 @media screen and (max-width: 960px) {
@@ -18,3 +23,4 @@
   }
   
 }
+
