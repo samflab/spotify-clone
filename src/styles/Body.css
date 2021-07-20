@@ -1,8 +1,53 @@
-.body{
-    flex: 0.9;
-    height: 100vh;
-    color: #ffffff;
-    padding: 30px;
-    /* background-color: #1e1e1f; */
-    background: linear-gradient(#443050, rgba(0,0,0,1));
+.body {
+  flex: 0.9;
+  height: auto;
+  color: #ffffff;
+  background-color: #1e1e1f;
 }
+
+.body-info {
+  align-items: flex-end;
+  padding: 10px;
+  box-shadow: 0px -17px 8px 0px #1e1e1f inset;
+  background: linear-gradient(#443050, rgba(0, 0, 0, 1));
+}
+
+.body-info-text {
+  flex: 1;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 70px;
+}
+
+.body-info-text > h2 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.body-info-text > p {
+  font-size: 16px;
+}
+
+.album-image {
+  height: 10vw;
+  width: 10vw;
+  object-fit: contain;
+  margin: 0 20px;
+  box-shadow: -10px 10px 30px rgb(39, 7, 39, 0.7);
+}
+
+/* .body-icons {
+  display: flex;
+  align-items: center;
+} */
+
+/* .body-shuffle {
+  font-size: 60px !important;
+  margin: 20px 50px 20px 20px;
+  color: thistle;
+}
+
+.body-shuffle:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+} */
